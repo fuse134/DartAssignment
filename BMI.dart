@@ -8,5 +8,5 @@ void main() {
   print("\n input height :");
   int height = int.parse(stdin.readLineSync());
   double bmi = weight / pow(height / 100, 2);
-  print("BMI : $bmi");
+  // print("BMI : $bmi");
 }
